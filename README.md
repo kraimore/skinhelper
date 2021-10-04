@@ -2,7 +2,7 @@
 
 # Multiplier
 
-Multiplies images with given syntax, i.e. followpoint-0, followpoint-1 etc.
+Multiplies images with or without given syntax, i.e. followpoint-0, followpoint-1 etc.
 
 ## Usage
 
