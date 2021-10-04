@@ -11,11 +11,11 @@ python3 multiplier.py -i [input]  -n [image count]
 ```
 ## Arguments
 ```
--h 
--i [input]
--o [output syntax]
--n [image count]
--f [number of the first img (default: 0)]
+-h | --help
+-i | --input   [input]
+-o | --output  [output syntax]
+-n | --number  [image count]
+-f | --first   [number of the first img (default: 0)]
 ```
 
 # Downsizer
@@ -29,6 +29,6 @@ python3 downsizer.py -i [input]
 ```
 ## Arguments
 ```
--h 
--i [input]
+-h | --help
+-i | --input   [input]
 ```
