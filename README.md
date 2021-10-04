@@ -9,7 +9,7 @@ Multiplies images with or without given syntax, i.e. followpoint-0, followpoint-
 ```
 python3 multiplier.py -i [input]  -n [image count]
 ```
-Example:
+Example
 
 ```
 python3 multiplier.py -i C:\Users\user\Pictures\fp.png -n 5 -f 3 -o followpoint-
