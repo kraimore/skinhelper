@@ -22,6 +22,7 @@ python3 multiplier.py -i C:\Users\user\osu!\skins\followpoint.png -n 5 -f 3 -o f
 -o | --output  [output syntax]
 -n | --number  [image count]
 -f | --first   [number of the first img (default: 0)]
+-hd            (adds @2x to the output)
 ```
 
 # Downsizer
