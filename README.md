@@ -12,7 +12,7 @@ python3 multiplier.py -i [input]  -n [image count]
 Example
 
 ```
-python3 multiplier.py -i C:\Users\user\osu!\skins\followpoint.png -n 5 -f 3 -o followpoint-
+python3 multiplier.py -i C:\Users\user\osu!\skins\followpoint.png -n 5 -f 3 -o followpoint
 ```
 
 ## Arguments
