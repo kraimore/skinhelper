@@ -1,5 +1,6 @@
 from PIL import Image
 import argparse
+import os.path
 
 
 img_input = ""
@@ -18,17 +19,18 @@ if __name__ == '__main__':
         img_input = args.input
     if args.output:
         img_output = args.output
+        i = 0
     else:
         img_output = args.input.replace(".png", "") + "-"
+        i = 1
     if args.first:
         f = int(args.first)
     if args.number:
         n  = int(args.number) + f - 1
     img = Image.open(img_input)
     while n >= f:
-        img.save(img_output + str(n) + ".png")
+        if i == 1:
+            img.save(img_output + str(n) + ".png")
+        else:
+            img.save(os.path.dirname(img_input)  + "\\" + img_output + str(n) + ".png")
         n = n - 1
-
-
-
-
