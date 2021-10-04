@@ -36,7 +36,7 @@ if __name__ == '__main__':
         if i == 1:
             img.save(img_output.strip("@2x") + "-" + str(n) + hd + ".png")
         else:
-            if ":\\" in img_input:
+            if "\\" in img_input:
 
                 img.save(os.path.dirname(img_input) + "\\" + img_output + "-" + str(n) + hd + ".png")
             else:
