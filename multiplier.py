@@ -18,6 +18,8 @@ if __name__ == '__main__':
         img_input = args.input
     if args.output:
         img_output = args.output
+    else:
+        img_output = args.input.replace(".png", "") + "-"
     if args.first:
         f = int(args.first)
     if args.number:
