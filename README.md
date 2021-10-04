@@ -20,7 +20,7 @@ python3 multiplier.py -i [input]  -n [image count]
 
 # Downsizer
 
-Downsizes HD skins (@2x elements) into HD + SD skins.
+Downsizes HD skins (@2x elements) into SD skins.
 
 ## Usage
 
