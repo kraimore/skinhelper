@@ -15,7 +15,7 @@ if __name__ == '__main__':
     parser.add_argument("-o", "--output", help = "Specify output image (i.e. followpoint-)")
     parser.add_argument("-n", "--number", help = "Specify image count")
     parser.add_argument("-f", "--first", help = "Specify first image number (default: 0)")
-    parser.add_argument("-hd", action="store_true", help=  "Specify the elements are HD sized (@2x)")
+    parser.add_argument("-hd", action="store_true", help=  "Specifies that the elements are HD sized (@2x)")
     args = parser.parse_args()
 
     if args.input:
