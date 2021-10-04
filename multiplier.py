@@ -11,7 +11,7 @@ if __name__ == '__main__':
     parser.add_argument("-i", "--input", help = "Specify input image (i.e followpoint.png)")
     parser.add_argument("-o", "--output", help = "Specify output image (i.e. followpoint-)")
     parser.add_argument("-n", "--number", help = "Specify image count")
-    parser.add_argument("-f", "--first", help="Specify image count")
+    parser.add_argument("-f", "--first", help="Specify first image number (default: 0)")
     args = parser.parse_args()
 
     if args.input:
